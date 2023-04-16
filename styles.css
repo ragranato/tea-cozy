@@ -118,3 +118,17 @@ figure {
     align-content: center;
     
 }
+
+#contact {
+    text-align: center;
+    position: relative;
+    top: 100px;
+    margin: 100px;
+    height: 200px;
+}
+
+footer {
+    text-align: left;
+    position: relative;
+    left: 20px;
+}
