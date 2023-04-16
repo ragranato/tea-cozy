@@ -7,10 +7,12 @@ body {
     text-align: center;
     z-index: -1;
 }
+
 header {
     display: flex;
     height: 69px;
     position: fixed;
+    top: 0;
     text-align: start;
     width: 100%;
     border-bottom: 1px solid seashell;
@@ -52,6 +54,7 @@ a {
     z-index: 1;
     position: relative;
     top: 70px;
+    flex-wrap: wrap;
 }
 
 .headline{
@@ -67,7 +70,8 @@ a {
     display: inline-block;
     width: 1000px;
     position: relative;
-    top: 70px;
+    top: 100px;
+    flex-wrap: wrap;
 }
 
 #teas {
@@ -76,6 +80,7 @@ a {
     width: 100%;
     justify-content: center;
 }
+
 img {
     height: 200px;
     width: 300px;    
@@ -88,15 +93,28 @@ figure {
 #locations {
     display: flex;
     position: relative;
-    top: 70px;
+    top: 150px;
+    left: 10%;
     height: 500px;
-    width: 100%;
+    width: 1200px;
     justify-content: center;
+    align-items: center;
     background-image: url("/resources/img-locations-background.png");
+    flex-wrap: wrap;
 }
-.locations {
-    margin: 40px;
+
+#loc-header {
     position: relative;
-    top: 30%; 
+    top: 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.locations {
+    margin: 15px 40px;
+    height: 200px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 1);
+    align-content: center;
     
 }
