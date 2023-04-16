@@ -64,5 +64,39 @@ a {
 }
 
 #featured {
+    display: inline-block;
+    width: 1000px;
+    position: relative;
+    top: 70px;
+}
+
+#teas {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+img {
+    height: 200px;
+    width: 300px;    
+}
+
+figure {
+    margin: 10px;
+}
+
+#locations {
+    display: flex;
+    position: relative;
+    top: 70px;
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+    background-image: url("/resources/img-locations-background.png");
+}
+.locations {
+    margin: 40px;
+    position: relative;
+    top: 30%; 
     
 }
