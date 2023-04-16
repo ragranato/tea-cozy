@@ -1,3 +1,3 @@
 ## tea-cozy
 
-#Codecademy Project for Intermediate CSS
+# Codecademy Project for Intermediate CSS
