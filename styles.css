@@ -5,6 +5,7 @@ body {
     background-color: black;
     opacity: 0.9;
     text-align: center;
+    z-index: -1;
 }
 header {
     display: flex;
@@ -13,6 +14,8 @@ header {
     text-align: start;
     width: 100%;
     border-bottom: 1px solid seashell;
+    background-color: black;
+    z-index: 2;
 }
 
 #site-name {
@@ -27,8 +30,10 @@ header {
 }
 
 .headnav {
-    display: flex;
-    align-content: end;    
+    display: flex;       
+    position: absolute;
+    bottom: 0;
+    right: 0;
     
 }
 a {
@@ -36,4 +41,28 @@ a {
     padding: 10px;    
     text-decoration: underline;
     color: seashell;    
+}
+
+#our-mission {
+    display: inline-block;
+    height: 700px; 
+    width: 1200px;   
+    align-content: center;
+    background-image: url("resources/img-mission-background.jpg");
+    z-index: 1;
+    position: relative;
+    top: 70px;
+}
+
+.headline{
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    background-color: black;
+    height: 160px;
+}
+
+#featured {
+    
 }
