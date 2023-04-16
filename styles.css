@@ -1,0 +1,39 @@
+body {
+    font-family: Helvetica, Arial, serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+header {
+    display: flex;
+    height: 69px;
+    position: fixed;
+    text-align: start;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+}
+
+#site-name {
+    display: flex;
+    float: left;
+    position: relative;    
+    top: 0px;
+    font-size: 50px;
+    margin: 10px;
+
+    
+}
+
+.headnav {
+    display: flex;
+    align-content: end;    
+    
+}
+a {
+    display: flex;    
+    padding: 10px;    
+    text-decoration: underline;
+    color: seashell;    
+}
