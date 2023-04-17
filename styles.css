@@ -99,7 +99,7 @@ figure {
     width: 1200px;
     justify-content: center;
     align-items: center;
-    background-image: url("/resources/img-locations-background.png");
+    background-image: url("resources/img-locations-background.png");
     flex-wrap: wrap;
 }
 
