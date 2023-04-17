@@ -101,6 +101,7 @@ figure {
     align-items: center;
     background-image: url("resources/img-locations-background.png");
     flex-wrap: wrap;
+    z-index: 0;
 }
 
 #loc-header {
